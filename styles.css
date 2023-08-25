@@ -1,0 +1,110 @@
+body{
+    margin:0;
+    background-color: rgb(233, 233, 233);
+}
+.container{
+    width: 70%;
+    background-color: rgb(72, 180, 223);
+    margin:auto;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    display:flex;
+    justify-content: space-between;
+}
+.info-wrapper{
+    width: 65%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2rem;
+}
+.profile-container{
+    width:35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    color:white;
+}
+.profile{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.profile h4{
+    margin:0;
+}
+.image-wrapper{
+    height: 150px;
+    width: 150px;
+    border-radius:50%;
+    border:2px white solid;
+    background-image: url('https://wallpapers.com/images/hd/cool-profile-picture-87h46gcobjl5e4xu.jpg');
+    background-size: cover;
+}
+.info-wrapper{
+    
+    padding:2.3rem;
+    box-sizing: border-box;
+}
+.info{
+    display: grid;
+}
+.info h2 span{
+    color: rgb(72, 180, 223);
+}
+.info h2{
+    margin:0;
+    margin-bottom: 5px;
+}
+.experience-wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    width:80%;
+    justify-self: flex-end;
+}
+.work-experience-wrapper{
+    display: flex;
+    gap: 10px;
+}
+.yearAndCopany{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+}
+.yearAndCopany h5{
+    margin: 0;
+}
+.roleAndTasks{
+    width:70%;
+}
+.company-name{
+    color: rgb(178, 175, 175);
+}
+
+.skillBarcontainer {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+  }
+  .skill-card p{
+    margin:0;
+    margin-top: 3px;
+
+  }
+  .skills {
+    text-align: right; /* Right-align text */
+    color: white; /* White text color */
+    background-color: rgb(72, 180, 223);
+    height: 7px;
+    border-radius: 4px;
+    margin-top: 5px;
+  }
+  
